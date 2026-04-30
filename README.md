@@ -27,6 +27,7 @@
 * `fuzzer_core/crypto_engine.py` — символьный движок для сборки и криптографической подписи JWT.
 
 ## Запуск
+0. Установка зависимостей: `pip install -r requirements.txt`
 1. Запустить локальную модель Ollama: `ollama run llama3:8b`
 2. Поднять уязвимый стенд: `python target_server.py`
 3. Запустить эксперимент: `python main_experiment.py`
